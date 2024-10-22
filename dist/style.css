@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,700italic,400italic,100italic,100);
+html, body {
+  overflow: hidden;
+}
+
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+
+div {
+  pointer-events: none;
+}
